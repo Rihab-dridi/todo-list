@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+ 
+}
+
+header{
+display:flex;
+text-align: center;
+color : brown;
+padding-left :40%;
+}
+.task{
+display:flex; 
+padding-left: 29.85%;
+
+
+}
+ .completed{
+ text-decoration: line-through;
+ }
+
+
+.to-do-list{  list-style: none;
+}
+
+input{
+  background-color: rgb(217, 223, 223);
+  width:400px;
+ }
+ .addBtn{
+   background-color:rgb(0, 0, 0);
+   width: 87px;
+   color: white
+ }
+ .to-do-el{
+   width:400px;
+   border:solid black 1px;
+   padding: 1px 0px;
+   font-size: 15px;
+  word-wrap: break-word;
+   text-align: start;
+   padding:5px;
+   background :whitesmoke
+   
+ }
+ .done-btn{
+  background-color: black;
+   color: chartreuse;
+ }
+ .done-btn  :hover{
+  background-color: chartreuse;
+   color:black ;
+ }
+
+ button :hover{
+   font-size: 120%;
+ 
+ }
+ .delete-btn{
+   color:red;
+   background-color: rgb(0, 0, 0);
+ }
+ .delete-btn:hover{
+   color :black;
+   background-color: red;
+ }
+ .Edit-btn{
+   color : white;
+   background-color: black;
+ }
+ .Edit-btn:hover{
+  color : black;
+  background-color: white;
+}
+
